@@ -327,8 +327,10 @@
 									<li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "info") { echo 'class="active"';} ?>><a href="<?php echo base_url(); ?>dashboard/info" aria-expanded="false"><i class="nav-icon ti ti-clipboard"></i><span class="nav-title">Informasi / Berita</span></a> </li>
 									<li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "laporan") { echo 'class="active"';} ?>><a href="<?php echo base_url(); ?>dashboard/laporan" aria-expanded="false"><i class="nav-icon ti ti-clipboard"></i><span class="nav-title">Laporan</span></a> </li>
 									<li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "user") { echo 'class="active"';} ?>><a href="<?php echo base_url(); ?>dashboard/user" aria-expanded="false"><i class="nav-icon ti ti-headphone-alt"></i><span class="nav-title">User</span></a> </li>
+									<li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "peserta") { echo 'class="active"';} ?>><a href="<?php echo base_url(); ?>dashboard/peserta" aria-expanded="false"><i class="nav-icon ti ti-comments-smiley"></i><span class="nav-title">Daftar Peserta</span></a> </li>
 									<li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "slider") { echo 'class="active"';} ?>><a href="<?php echo base_url(); ?>dashboard/slider" aria-expanded="false"><i class="nav-icon ti ti-desktop"></i><span class="nav-title">Slider Header</span></a> </li>
 									<li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "aktivitas") { echo 'class="active"';} ?>><a href="<?php echo base_url(); ?>dashboard/aktivitas" aria-expanded="false"><i class="nav-icon ti ti-briefcase"></i><span class="nav-title">Aktivitas</span></a> </li>
+									<li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "helpdesk") { echo 'class="active"';} ?>><a href="<?php echo base_url(); ?>dashboard/helpdesk" aria-expanded="false"><i class="nav-icon ti ti-receipt"></i><span class="nav-title">Helpdesk</span></a> </li>
 								<?php } ?>
 							</ul>
 						</div>

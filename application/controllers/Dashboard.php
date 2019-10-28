@@ -97,5 +97,25 @@ class Dashboard extends CI_Controller {
 		);
 		$this->load->view('dashboard/template/default_template', $data);
 	}
+
+	public function peserta()
+	{
+		$path = "";
+		$data = array(
+			"page" => $this->load("Pelatihan Kota Depok - Daftar Peserta", $path),
+			"content" => $this->load->view('dashboard/peserta', false, true),
+		);
+		$this->load->view('dashboard/template/default_template', $data);
+	}
+
+	public function helpdesk()
+	{
+		$path = "";
+		$data = array(
+			"page" => $this->load("Pelatihan Kota Depok - Helpdesk", $path),
+			"content" => $this->load->view('dashboard/helpdesk', false, true),
+		);
+		$this->load->view('dashboard/template/default_template', $data);
+	}
 	
 }
